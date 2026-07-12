@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .top {
+        padding: 15px 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        padding: 10px 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links li,
+    .nav-links select {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 60px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .section-card {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+
+    .cards {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card-one {
+        max-width: 45%;
+    }
+
+    .upper-right {
+        gap: 20px;
+    }
+
+    .paragraph {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .title-bottom {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .last-main {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .last-left,
+    .last-right {
+        width: 100%;
+    }
+
+    .last-right {
+        border-left: none;
+        padding-left: 0;
+        box-shadow: none;
+    }
+}
